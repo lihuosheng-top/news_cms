@@ -1,0 +1,1146 @@
+[ 2018-04-26T00:00:22+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0029s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003452s ]
+
+[ 2018-04-26T00:00:26+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0018s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003413s ]
+
+[ 2018-04-26T00:00:37+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0019s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005564s ]
+
+[ 2018-04-26T00:01:24+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0029s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2018-04-26T00:05:42+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004533s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0018s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003085s ]
+
+[ 2018-04-26T00:06:53+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0037s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003820s ]
+
+[ 2018-04-26T00:07:30+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0017s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=45 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003608s ]
+
+[ 2018-04-26T00:07:33+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002848s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0017s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=45 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004207s ]
+
+[ 2018-04-26T00:08:14+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0269s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0289s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0027s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=45 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004049s ]
+
+[ 2018-04-26T00:09:22+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0035s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=45 ) LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006453s ]
+
+[ 2018-04-26T00:10:02+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0018s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=46 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004014s ]
+
+[ 2018-04-26T00:17:17+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004552s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0030s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=46 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004996s ]
+
+[ 2018-04-26T00:17:52+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002782s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0275s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0018s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006211s ]
+
+[ 2018-04-26T00:18:12+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0018s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003924s ]
+
+[ 2018-04-26T00:18:40+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0266s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0022s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004231s ]
+
+[ 2018-04-26T00:19:07+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0021s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2018-04-26T00:19:10+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0021s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2018-04-26T00:19:13+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003355s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0020s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003299s ]
+
+[ 2018-04-26T00:19:39+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003548s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0298s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0317s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0022s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003057s ]
+
+[ 2018-04-26T00:19:44+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0021s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002705s ]
+
+[ 2018-04-26T00:55:49+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0306s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0291s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0047s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2018-04-26T00:55:52+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0025s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003993s ]
+
+[ 2018-04-26T01:31:09+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0324s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0022s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002978s ]
+
+[ 2018-04-26T01:31:20+08:00 ] ::1 /new_info/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0021s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004507s ]
+
+[ 2018-04-26T21:51:48+08:00 ] ::1 /new_info/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 AND `status` <> -1 ORDER BY listorder desc,create_time desc  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0287s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc LIMIT 0,4   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY count desc  [ RunTime:0.0054s ]
+SQL: SELECT `count` FROM `cms_news` WHERE ( news_id=47 ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: config D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 21 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name D:\php\Apache24\htdocs\New_info\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004899s ]
+
